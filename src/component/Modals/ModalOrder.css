@@ -1,0 +1,21 @@
+.header{
+    border: none;
+}
+.main{
+    text-align: center;
+}
+.titleModal{
+    color: var(--TitleColor);
+}
+input ,
+.dropItems{
+    border: none;
+    border: 2px solid #eded;
+    padding: 8px;
+    outline: none;
+}
+.main .footer{
+    border: none;
+    display: flex;
+    justify-content: center;
+}

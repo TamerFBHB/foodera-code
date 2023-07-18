@@ -1,0 +1,42 @@
+.Explorer{
+    margin: 50px 0;
+    text-align: center;
+}
+.Explorer h1{
+    color:  #43121d;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.Explorer .parag{
+    margin: 20px 200px;
+}
+@media (max-width:992px) {
+    .Explorer .parag{
+        margin: 20px 0px;
+    }
+}
+.Explorer .card{
+    border: none;
+    z-index: 0;
+}
+.Explorer .image{
+border-radius: 10px;
+}
+.Explorer .row{
+    text-align: start;
+    gap: 30px ;
+    justify-content: center;
+}
+.Explorer .cardTitle{
+    color:  #43121d;
+    font-weight: 600;
+}
+.Explorer .cardText span{
+    color :grey ;
+    text-decoration: line-through;
+}
+.Explorer  .row .card hr{
+    margin-top: 20px;
+    color: #777;
+    width: 100%;
+}
