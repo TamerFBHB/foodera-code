@@ -4,7 +4,16 @@ import { NavLink } from "react-router-dom";
 import "./NavHeader.css";
 import logo from "../../images/logo.png";
 
+window.addEventListener("scroll", function() {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+    document.getElementById("header").style.boxShadow = "0 8px 6px -6px #444";
+  } else {
+    document.getElementById("header").style.boxShadow = "none";
+  }
+});
+
 const NavHeader = ({aBout,explorer,Review,Home}) => {
+  
   // navigation to Home
 const moveHome = () => {
   Home.current.scrollIntoView({ behavior: "smooth", block:"start" });
@@ -23,7 +32,7 @@ const moveReview = () => {
 };
 
   return (
-    <Navbar expand="lg" className="navFixed">
+    <Navbar expand="lg" id="header" className="navFixed">
       <Container>
         <NavLink to="/">
           <img src={logo} alt="logo" />
