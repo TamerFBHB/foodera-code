@@ -7,9 +7,7 @@
     margin-top: 0;
     z-index: 100;
 }
-.navFixed.active{
-    box-shadow: 5px 0px 7px rgba(0, 0, 0, 0.289);
-}
+
 a{
     text-decoration: none;
     text-transform: uppercase;
