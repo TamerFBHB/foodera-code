@@ -1,4 +1,4 @@
-import { Card } from "react-bootstrap";
+import {Card } from "react-bootstrap";
 import "./Explorer.css";
 import Data from "./data";
 import ModalOrder from "../../Modals/ModalOrder";
