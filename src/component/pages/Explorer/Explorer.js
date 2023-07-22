@@ -1,6 +1,7 @@
 import { Button, Card } from "react-bootstrap";
 import "./Explorer.css";
 import Data from "./data";
+import ModalOrder from "../../Modals/ModalOrder";
 
 const Explorer = ({ forwardref }) => {
   return (
@@ -31,7 +32,7 @@ const Explorer = ({ forwardref }) => {
                       </h3>
                     </Card.Text>
                     <hr />
-                    <Button variant="primary">Order Now</Button>
+                    <ModalOrder />
                   </Card.Body>
                 </Card>
               );

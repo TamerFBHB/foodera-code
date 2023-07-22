@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import NavHeader from "../navs/NavHeader";
+import ModalOrder from "../../Modals/ModalOrder";
 
 const Header = ({about,explorer,review,home}) => {
   return (
@@ -15,10 +16,7 @@ const Header = ({about,explorer,review,home}) => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                 et purus a odio finibus bibendum amet leo.
               </p>
-              <button className="btn">
-                Order Now
-                <i className="bi bi-basket2-fill ms-2"></i>
-              </button>
+              <ModalOrder />
               <button className="btnLearn">
                 Learn More
                 <i className="bi bi-caret-right ms-2"></i>

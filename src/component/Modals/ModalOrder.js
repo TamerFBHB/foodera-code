@@ -12,9 +12,10 @@ function ModalOrder() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      <button className="btn" onClick={handleShow}>
         Order Now
-      </Button>
+        <i className="bi bi-basket2-fill ms-2"></i>
+      </button>
 
       <Modal className="main" show={show} onHide={handleClose}>
         <Modal.Header className="header" closeButton>
@@ -25,7 +26,11 @@ function ModalOrder() {
         <Modal.Body>
           <div className="row ">
             <form>
-              <input className="col-6 me-3" type="text" placeholder="Your name" />
+              <input
+                className="col-6 me-3"
+                type="text"
+                placeholder="Your name"
+              />
               <input
                 className="col-5 ms-3 my-3"
                 type="text"
@@ -55,8 +60,7 @@ function ModalOrder() {
           </div>
         </Modal.Body>
         <Modal.Footer className="footer">
-
-          <Button  onClick={handleClose}>
+          <Button onClick={handleClose}>
             Send Message
             <i className="bi bi-send ms-2"></i>
           </Button>
