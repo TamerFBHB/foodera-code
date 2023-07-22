@@ -24,33 +24,15 @@ function ModalOrder() {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <div className="row ">
-            <form>
-              <input
-                className="col-6 me-3"
-                type="text"
-                placeholder="Your name"
-              />
-              <input
-                className="col-5 ms-3 my-3"
-                type="text"
-                placeholder="Your Email "
-              />
-              <input
-                className="col-12 "
-                type="text"
-                placeholder="Your  Adress"
-              />
-              <input
-                className="col-12 my-3"
-                type="number"
-                placeholder="Zep Code"
-              />
-              <input
-                className="col-12"
-                type="number"
-                placeholder="Mobile No."
-              />
+          <div>
+            <form className="main-modal ">
+              <input type="text" placeholder="Your name" />
+              <input type="text" placeholder="Your Email " />
+              <input type="text" placeholder="Your  Adress" />
+              <div className="info">
+                <input type="number" placeholder="Zep Code" />
+                <input type="number" placeholder="Mobile No." />
+              </div>
               <Form.Select className="my-3 dropItems">
                 <option>Rainbow Vegetable Sandwich $10.50</option>
                 <option>Vegetarian Burger $9.20</option>

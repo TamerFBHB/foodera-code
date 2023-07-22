@@ -6,6 +6,7 @@
     justify-content: start;
     align-items: center;
     flex-direction: column;
+    overflow: hidden;
 }
 .Testimonials .carousel-indicators{
     background-color: var(--adressColor);

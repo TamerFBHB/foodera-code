@@ -1,8 +1,26 @@
 .header{
     border: none;
 }
-.main{
-    text-align: center;
+@media (max-width:768px) {
+    .main{
+        width:80%;
+        top: 10%;
+        left: 10%;
+        padding: 10px;
+    }
+}
+.main-modal{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+.main-modal .info{
+    display: flex;
+    gap: 10px;
+}
+.main-modal .info input{
+    width: 50%;
 }
 .titleModal{
     color: var(--TitleColor);
@@ -13,6 +31,11 @@ input ,
     border: 2px solid #eded;
     padding: 8px;
     outline: none;
+}
+@media (max-width:768px) {
+    .dropItems option{
+        font-size: 10px;
+    }
 }
 .main .footer{
     border: none;

@@ -16,10 +16,15 @@
 .footer input{
     margin-right: 30px;
     padding: 8px;
-    width: 400px;
+    width: 300px;
     outline: none;
     border: none;
     border: 2px solid #c5c5c5;
+}
+@media (max-width:768px) {
+    .footer input{
+        margin: 0 0 20px 0;
+    }
 }
 .footer .enFooter{
     height: 250px;

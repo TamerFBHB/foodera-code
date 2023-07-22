@@ -131,6 +131,12 @@ text-align: center;
     gap: 20PX;
     align-items: center;
 }
+@media (max-width:768px) {
+    .DETAILS{
+        flex-direction: column;
+        padding: 0 10px;
+    }
+}
 .DETAILS P{
     margin-bottom: 20PX;
     font-size: 18PX;
