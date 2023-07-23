@@ -34,7 +34,9 @@ input ,
 }
 @media (max-width:768px) {
     .dropItems{
-        padding-right: 30px;
+        padding-right: 30px;           
+        white-space:break-spaces
+
     }
     .dropItems option{
         font-size: 10px;
